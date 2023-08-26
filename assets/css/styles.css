@@ -1,0 +1,28 @@
+body {
+  background-color: #141414;
+  color: rgba(255,255,255,0.5);
+}
+
+a {
+  color: var(--bs-red);
+}
+
+.btn-primary {
+  border: none;
+  min-width: 100px;
+  border-radius: 0px;
+  background-color: rgba(186,0,0,0.5);
+}
+
+.btn-primary:active {
+  min-width: 100px;
+  border-radius: 0px;
+  background-color: rgba(186,0,0,0.5)!important;
+}
+
+.btn-primary:hover {
+  min-width: 100px;
+  border-radius: 0px;
+  background-color: rgba(115,0,0,0.5);
+}
+
